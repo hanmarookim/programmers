@@ -17,5 +17,3 @@ def solution(begin, target, words):
                     if dif > 1: break
                 if dif == 1:
                     q.append((w, tick+1))
-
-print(solution('hit', 'cog', ['hot', 'dot', 'dog', 'lot', 'log', 'cog']))

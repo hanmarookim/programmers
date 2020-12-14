@@ -13,5 +13,3 @@ def solution(tickets):
                 stack.append([node[1][t][1], ti, node[2]+[node[1][t][1]]])
     visit = sorted(visit)
     return visit
-
-print(solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]))
